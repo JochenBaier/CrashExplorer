@@ -1,0 +1,6 @@
+.vs/
+build/
+bin/
+obj/
+TestResults/
+**/packages/*

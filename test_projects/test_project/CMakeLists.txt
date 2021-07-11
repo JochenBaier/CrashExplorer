@@ -1,0 +1,28 @@
+#This file is part of CrashExplorer.
+#
+#CrashExplorer is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#
+#CrashExplorer is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License
+#along with CrashExplorer.  If not, see <http://www.gnu.org/licenses/>.
+
+cmake_minimum_required(VERSION 3.15)
+
+set( TARGET_NAME "test_project" )
+
+project(${TARGET_NAME})
+
+#generate assembler listing files
+add_compile_options(/FAcs)
+
+add_subdirectory( "main" "${CMAKE_CURRENT_BINARY_DIR}/main" )
+add_subdirectory( "static_library" "${CMAKE_CURRENT_BINARY_DIR}/static_library" )
+add_subdirectory( "dynamic_library" "${CMAKE_CURRENT_BINARY_DIR}/dynamic_library" )
+
