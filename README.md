@@ -68,7 +68,7 @@ The example_project uses code from www.geeksforgeeks.org.
 
 #### Contact/Copyright
 
-Email: [Jochen Baier](mailto:email@jochen-baier.de)
+Email: [Jochen Baier](mailto:email a.t. jochen-baier.de)
 
 The algorithm used in CrashExplorer is based on the CodeProject articles '[How to Debug the Exception](https://www.codeproject.com/Articles/43064/How-to-Debug-the-Exception)' , '[Using Windows Event Viewer to debug crashes](https://www.codeproject.com/Articles/597856/Using-Windows-Event-Viewer-to-debug-crashes)' and the help of my workmate Martin Strobel.
 
