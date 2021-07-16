@@ -2,7 +2,7 @@
 
 CrashExplorer is a tool to help analyze crashes of programs written with Visual Studio in C/C++.
 
-After a crash matching symbol files (*.pdb) often do not exists or are not usable if the program is using a copy protection mechanism.
+After a crash matching symbol files (*.pdb) often do not exists or are not usable if the program is using a copy protection mechanism (e.g. hardware dongle).
 
 In this case it is possible to use a combination of  [Map files (*.map)](https://docs.microsoft.com/en-us/cpp/build/reference/map-generate-mapfile?view=msvc-160) and a [listing files (*.cod)](https://docs.microsoft.com/en-us/cpp/build/reference/fa-fa-listing-file?view=msvc-160) files.
 The map file lists all functions of the program with addresses. The listing files maps source code to assembler code per translation unit.
